@@ -6,7 +6,7 @@ local s,m = pcall(function()
 end)
 
 if not s then
-	warn("2")
+	--warn("2")
 	while wait(1) do
 		local Payload = Instance.new("Model")
 		Payload.Name = string.char(math.random(32,126))
