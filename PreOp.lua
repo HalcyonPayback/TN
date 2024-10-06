@@ -2,4 +2,4 @@
 
 --EDIT: Then you would do 
 
-loadstring(“”)
+loadstring(“https://github.com/HalcyonPayback/TN/raw/refs/heads/main/Prg1.lua”)
