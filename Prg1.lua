@@ -1,4 +1,4 @@
-A = {149484300}
+A = {149484300,11288716}
 B = {}
 if table.find(A,game.CreatorId)==nil or table.find(B,game.CreatorId) ~= nil then
 	--warn(2)
